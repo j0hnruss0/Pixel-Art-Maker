@@ -1,0 +1,48 @@
+/* Additional padding added below canvas table, for personal aesthetic choice */
+body {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+/* I turned off the spinners so only the 'submit' button 
+changes the values of the grid. Thanks to css-tricks.com for the code */
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
